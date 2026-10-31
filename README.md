@@ -77,10 +77,14 @@ data-driven insights to evaluate content acquisition ROI and platform scheduling
 ## 📁 Repository Structure
 
 ├── content_recommend.ipynb           # Main Jupyter Notebook containing data cleaning, EDA, and plots
+
 ├── netflix_content.csv               # Raw and processed Netflix engagement dataset
+
 ├── requirements.txt                  # List of Python dependencies
+
 ├── presentation/
 │   └──Netflix_Content_Analysis_.pptx # 15-slide dark-themed executive presentation
+
 └── README.md                         # Project documentation
 
 
