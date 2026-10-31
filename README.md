@@ -1,9 +1,9 @@
-🎬 Netflix Global Content & Viewership Analysis
+# 🎬 Netflix Global Content & Viewership Analysis
 
 An end-to-end Data Analytics study exploring global audience engagement, content distribution,
 language trends, and release timing strategies using official Netflix viewing data.
 
-📌 Project Overview
+## 📌 Project Overview
 
 Netflix periodically releases global engagement data covering thousands of catalog titles.
 This project utilizes Python, Pandas, Matplotlib, and Seaborn to perform comprehensive Exploratory Data Analysis (EDA) on total hours viewed.
@@ -11,77 +11,72 @@ This project utilizes Python, Pandas, Matplotlib, and Seaborn to perform compreh
 By analyzing engagement across content formats, languages, global availability, and release calendars, this study delivers
 data-driven insights to evaluate content acquisition ROI and platform scheduling strategies.
 
-🎯 Objectives
+## 🎯 Objectives
 
-Top 10 Performance: Identify and analyze the highest-grossing titles globally by total viewing hours.
+**Top 10 Performance:** Identify and analyze the highest-grossing titles globally by total viewing hours.
 
-Format Engagement (Movies vs. Shows): Evaluate total aggregate watch time and average viewing hours per title across formats.
+**Format Engagement (Movies vs. Shows):** Evaluate total aggregate watch time and average viewing hours per title across formats.
 
-Global Availability Impact: Assess viewership differentials between globally licensed content and regionally restricted titles.
+**Global Availability Impact:** Assess viewership differentials between globally licensed content and regionally restricted titles.
 
-Language & Market Breakdown: Measure total viewership across English, Korean, Japanese, Spanish, and Hindi titles.
+**Language & Market Breakdown:** Measure total viewership across English, Korean, Japanese, Spanish, and Hindi titles.
 
-Release Timing Analysis: Identify optimal release days and yearly trends that maximize initial 72-hour viewer activity.
+**Release Timing Analysis:** Identify optimal release days and yearly trends that maximize initial 72-hour viewer activity.
 
-📊 Key Insights & Analytical Findings
+## 📊 Key Insights & Analytical Findings
 
-Dimension
+### Format Dominance:-
 
-Key Finding
+- TV Shows account for the majority of total engagement due to multi-episode binge structures.
 
-Data Metric
+- 107.43B hours (68%) vs. 50.54B hours (32%) for Movies.
 
-Format Dominance
+### Average Engagement:-
 
-TV Shows account for the majority of total engagement due to multi-episode binge structures.
+- TV Show seasons generate significantly higher average watch time per title than Movies.
 
-107.43B hours (68%) vs. 50.54B hours (32%) for Movies.
+- 10.29M avg hrs/show vs. 3.63M avg hrs/movie (2.8x multiplier).
 
-Average Engagement
+### Catalog Distribution:-
 
-TV Show seasons generate significantly higher average watch time per title than Movies.
+- Top 10 blockbusters drive excitement, while the long-tail catalog maintains overall user retention.
 
-10.29M avg hrs/show vs. 3.63M avg hrs/movie (2.8x multiplier).
+- Top 10 = 3.52% (5.56B hrs); Catalog = 96.48% (152.41B hrs).
 
-Catalog Distribution
+### Global Licensing:-
 
-Top 10 blockbusters drive excitement, while the long-tail catalog maintains overall user retention.
+- Simultaneous global distribution substantially lifts viewership compared to localized licensing.
 
-Top 10 = 3.52% (5.56B hrs); Catalog = 96.48% (152.41B hrs).
+- 11.39M avg hrs (Global) vs. 4.32M avg hrs (Restricted) (2.64x lift).
 
-Global Licensing
+### Language Crossover:-
 
-Simultaneous global distribution substantially lifts viewership compared to localized licensing.
+- Non-English titles achieve exceptional international popularity and engagement ROI.
 
-11.39M avg hrs (Global) vs. 4.32M avg hrs (Restricted) (2.64x lift).
+- English: 124.09B hrs | Korean: 15.37B hrs | Japanese: 7.06B hrs | Hindi: 0.92B hrs.
 
-Language Crossover
+### Release Strategy:-
 
-Non-English titles achieve exceptional international popularity and engagement ROI.
+- Over 65% of major releases premiere late in the week to leverage weekend viewing windows.
 
-English: 124.09B hrs | Korean: 15.37B hrs | Japanese: 7.06B hrs | Hindi: 0.92B hrs.
+- Thursday & Friday releases generate the highest initial 3-day viewership.
+  
 
-Release Strategy
+## 🛠️ Tools & Technologies
 
-Over 65% of major releases premiere late in the week to leverage weekend viewing windows.
+**Programming Language:** Python 3.8+
 
-Thursday & Friday releases generate the highest initial 3-day viewership.
+**Data Manipulation:** pandas, numpy
 
-🛠️ Tools & Technologies
+**Data Visualization:** matplotlib, seaborn
 
-Programming Language: Python 3.8+
+**Environment:** Jupyter Notebook
 
-Data Manipulation: pandas, numpy
+**Presentation Deck:** PowerPoint (python-pptx)
 
-Data Visualization: matplotlib, seaborn
+## 📁 Repository Structure
 
-Environment: Jupyter Notebook
-
-Presentation Deck: PowerPoint (python-pptx)
-
-📁 Repository Structure
-
-├── Netflix_Content_Analysis.ipynb    # Main Jupyter Notebook containing data cleaning, EDA, and plots
+├── content_recommend.ipynb           # Main Jupyter Notebook containing data cleaning, EDA, and plots
 ├── netflix_content.csv               # Raw and processed Netflix engagement dataset
 ├── requirements.txt                  # List of Python dependencies
 ├── presentation/
@@ -89,15 +84,15 @@ Presentation Deck: PowerPoint (python-pptx)
 └── README.md                         # Project documentation
 
 
-🚀 Getting Started
+## 🚀 Getting Started
 
-Prerequisites
+### Prerequisites
 
 Ensure you have Python 3.8+ installed on your system.
 Ensure you have korean supported font installed on your system.
 
 
-Installation
+### Installation
 
 Clone the repository:
 
@@ -105,20 +100,13 @@ git clone https://github.com/amarjeet-AIML/Netflix-Content-Analysis.git
 cd Netflix-Content-Analysis
 
 
-Install required packages:
-
-pip install -r requirements.txt
-
-
-Launch the Jupyter Notebook:
-
-
+### Launch the Jupyter Notebook:
 Open content_recommend.ipynb to run the data analysis workflow.
 
-👤 Author
+# 👤 Author
 
-Data Analytics Project
+## Data Analytics Project
 
-GitHub: @amarjeet-AIML
+## GitHub: @amarjeet-AIML
 
 Dataset Source: Publicly available Netflix viewing dataset on Kaggle.
